@@ -1,7 +1,12 @@
 // fonts
 // $font-main: "Roboto", sans-serif;
 
+$roboto-slab-bold: "Roboto Slab", serif;
+$roboto-regular: "Roboto", sans-serif;
+
 $orange: #f26002;
+
+// $arrowHeight: calc(0vh + 200px);
 
 @mixin tablet {
   @media (min-width: 768px) {
