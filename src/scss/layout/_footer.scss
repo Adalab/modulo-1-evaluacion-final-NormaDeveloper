@@ -1,4 +1,44 @@
 .footer {
+  background-color: #304268;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 60px 15px 45px;
+
+  & .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(50%);
+  }
+
+  & .nav_link {
+    @include text($roboto-regular, 16px, uppercase, $line-height, white);
+  }
+
+  &__p {
+    @include text($roboto-regular, 16px, lowercase, $line-height, white);
+  }
+
   @include tablet {
   }
 }

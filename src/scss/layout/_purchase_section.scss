@@ -12,7 +12,7 @@
   }
 
   &__btn {
-    margin-top: 28px;
+    margin-top: 32px;
     padding: 12px 27px;
     border-radius: 100px;
     border: 3px solid;
@@ -20,6 +20,8 @@
     font-weight: bold;
     transition: all ease-in-out 1s;
     @include text($roboto-regular, 20px, none, $line-height, white);
+    width: 70%;
+    margin-left: 58px;
 
     &:hover {
       background-color: white;
