@@ -1,6 +1,3 @@
-// fonts
-// $font-main: "Roboto", sans-serif;
-
 $roboto-slab-bold: "Roboto Slab", serif;
 $roboto-regular: "Roboto", sans-serif;
 $capitalize: capitalize;
@@ -18,4 +15,12 @@ $orange: #f26002;
   @media (min-width: 1200) {
     @content;
   }
+}
+
+@mixin text($family, $size, $trans, $line, $color) {
+  font-family: $family;
+  font-size: $size;
+  text-transform: $trans;
+  line-height: $line;
+  color: $color;
 }

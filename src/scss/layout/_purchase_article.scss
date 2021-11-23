@@ -1,0 +1,12 @@
+.purchase_article {
+  padding: 10px 55px;
+
+  & .h3 {
+    text-align: center;
+    @include text($roboto-slab-bold, 18px, none, 30px, black);
+  }
+  & .p {
+    text-align: center;
+    @include text($roboto-regular, 18px, none, 30px, black);
+  }
+}

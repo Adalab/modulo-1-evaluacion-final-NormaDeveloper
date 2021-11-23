@@ -1,0 +1,29 @@
+.purchase {
+  background-color: #eff9ff;
+  padding: 30px 15px 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 45px 1fr 1fr 1fr 1fr;
+  row-gap: 1.5rem;
+
+  & .h2 {
+    @include text($roboto-slab-bold, 24px, $capitalize, 30px, black);
+    text-align: center;
+  }
+
+  &__btn {
+    margin-top: 28px;
+    padding: 12px 27px;
+    border-radius: 100px;
+    border: 3px solid;
+    background-color: $orange;
+    font-weight: bold;
+    transition: all ease-in-out 1s;
+    @include text($roboto-regular, 20px, none, $line-height, white);
+
+    &:hover {
+      background-color: white;
+      color: $orange;
+    }
+  }
+}

@@ -3,27 +3,18 @@
   padding: 30px 15px 45px;
 
   &__pre-title {
-    color: #8ccbea;
-    font-size: 14px;
-    line-height: $line-height;
-    font-family: $roboto-regular;
-    text-transform: $capitalize;
+    @include text($roboto-regular, 14px, $capitalize, $line-height, #8ccbea);
   }
   & .h2 {
-    font-size: 24px;
-    font-family: $roboto-slab-bold;
-    line-height: $line-height;
-    text-transform: $capitalize;
     text-align: left;
     word-spacing: 1.8vw;
+    @include text($roboto-slab-bold, 24px, $capitalize, $line-height, black);
   }
 
   &__p {
-    font-size: 18px;
-    font-family: $roboto-regular;
-    line-height: $line-height;
     text-align: justify;
     padding-top: 15px;
+    @include text($roboto-regular, 18px, none, $line-height, #4a4a4a);
   }
 
   &__btn {
@@ -33,11 +24,9 @@
     border: 3px solid;
     border-color: $orange;
     background-color: white;
-    font-family: $roboto-regular;
     font-weight: bold;
-    font-size: 20px;
-    color: $orange;
     transition: all ease-in-out 1s;
+    @include text($roboto-regular, 20px, none, $line-height, $orange);
 
     &:hover {
       background-color: $orange;
