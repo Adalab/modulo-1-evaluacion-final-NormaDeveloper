@@ -9,6 +9,8 @@ $orange: #f26002;
 $btnWidth: calc(100vw - 276px);
 $btnWidthTablet: calc(100vw - 525px);
 $arrowWidthTablet: calc(100vw - 440px);
+$btnWidthDesktop: calc(100vw - 850px);
+$arrowWidthDesktop: calc(100vw - 746px);
 
 @mixin tablet {
   @media (min-width: 768px) {

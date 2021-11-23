@@ -8,9 +8,18 @@
   & .h3 {
     text-align: center;
     @include text($roboto-slab-bold, 18px, none, 30px, black);
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 30px;
+    }
   }
   & .p {
     text-align: center;
     @include text($roboto-regular, 18px, none, 30px, black);
+
+    @include tablet {
+      font-size: 20px;
+    }
   }
 }

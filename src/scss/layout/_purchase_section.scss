@@ -15,11 +15,21 @@
     padding: 30px 35px 0px;
   }
 
+  @include desktop {
+    padding: 60px 85px 0px;
+  }
+
   & .h2 {
     @include text($roboto-slab-bold, 24px, $capitalize, 30px, black);
 
     @include tablet {
       grid-area: h2;
+      font-size: 26px;
+    }
+
+    @include desktop {
+      font-size: 32px;
+      line-height: 45px;
     }
   }
 
@@ -47,6 +57,11 @@
       width: 210px;
       transform: translateX($btnWidthTablet);
     }
+
+    @include desktop {
+      width: 255px;
+      transform: translateX($btnWidthDesktop);
+    }
   }
 
   &__link {
@@ -63,6 +78,10 @@
     @include tablet {
       grid-area: arrow;
       transform: translate($arrowWidthTablet, 62%);
+    }
+
+    @include desktop {
+      transform: translate($arrowWidthDesktop, 62%);
     }
   }
 }
