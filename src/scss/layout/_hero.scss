@@ -18,6 +18,11 @@
     text-align: center;
     transform: translateY(2.3em);
     line-height: 55px;
+
+    @include tablet {
+      font-size: 80px;
+      line-height: 106px;
+    }
   }
 
   &__h4 {
@@ -25,6 +30,11 @@
     font-family: $roboto-regular;
     transform: translateY(8em);
     font-size: 16px;
+
+    @include tablet {
+      font-size: 24px;
+      transform: translateY(10em);
+    }
   }
 
   &__link {
@@ -35,11 +45,13 @@
     line-height: 50px;
     text-align: center;
     transform: translateY(12em);
+
+    @include tablet {
+      font-size: 24px;
+      transform: translateY(13em);
+    }
   }
 
   // transform: translate(40vw, 84px);
-  // }
-
-  // & @include tablet {
   // }
 }
