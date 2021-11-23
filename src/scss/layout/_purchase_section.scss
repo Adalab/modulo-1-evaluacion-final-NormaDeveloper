@@ -1,14 +1,14 @@
 .purchase {
   background-color: #eff9ff;
-  padding: 30px 15px 60px;
+  padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 45px 1fr 1fr 1fr 1fr;
   row-gap: 1.5rem;
+  text-align: center;
 
   & .h2 {
     @include text($roboto-slab-bold, 24px, $capitalize, 30px, black);
-    text-align: center;
   }
 
   &__btn {
@@ -27,5 +27,19 @@
       background-color: white;
       color: $orange;
     }
+  }
+
+  &__link {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transform: translate(10.3em, 50%);
+
+    // transform: translate(40vw, 84px);
   }
 }

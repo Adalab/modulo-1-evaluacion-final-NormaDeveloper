@@ -20,17 +20,6 @@
     align-items: center;
   }
 
-  &__link {
-    width: 48px;
-    height: 48px;
-    background-color: white;
-    border-radius: 50%;
-    line-height: 50px;
-    text-align: center;
-    padding: 10px;
-    transform: translateY(50%);
-  }
-
   & .nav_link {
     @include text($roboto-regular, 16px, uppercase, $line-height, white);
   }
