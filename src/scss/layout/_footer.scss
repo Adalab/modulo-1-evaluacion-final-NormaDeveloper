@@ -7,9 +7,11 @@
   padding: 60px 15px 45px;
 
   @include tablet {
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: flex-start;
+    height: 240px;
+    padding: 60px 39px 45px;
   }
 
   & .menu {
@@ -19,6 +21,7 @@
     text-align: center;
 
     @include tablet {
+      text-align: left;
     }
   }
 
@@ -27,15 +30,18 @@
     justify-content: center;
 
     @include tablet {
+      order: -1;
     }
   }
 
   & .books {
     display: flex;
     justify-content: center;
+  }
 
-    @include tablet {
-    }
+  & .prueba {
+    display: flex;
+    justify-content: center;
   }
 
   &__text {
@@ -43,7 +49,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // order: 0;
+
+    @include tablet {
+      justify-content: center;
+      align-items: flex-start;
+    }
   }
 
   & .nav_link {
@@ -52,8 +62,5 @@
 
   &__p {
     @include text($roboto-regular, 16px, lowercase, $line-height, white);
-  }
-
-  @include tablet {
   }
 }
