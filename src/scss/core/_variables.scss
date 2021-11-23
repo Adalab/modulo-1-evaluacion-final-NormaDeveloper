@@ -15,8 +15,9 @@ $arrowWidthTablet: calc(100vw - 440px);
     @content;
   }
 }
+
 @mixin desktop {
-  @media (min-width: 1200) {
+  @media (min-width: 1200px) {
     @content;
   }
 }
