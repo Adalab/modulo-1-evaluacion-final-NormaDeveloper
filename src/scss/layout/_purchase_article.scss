@@ -1,5 +1,9 @@
 .purchase_article {
-  padding: 10px 55px;
+  padding: 0px 70px;
+
+  @include tablet {
+    padding: 10px 14px;
+  }
 
   & .h3 {
     text-align: center;
