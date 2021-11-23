@@ -2,6 +2,10 @@
   width: 100%;
   padding: 30px 15px 45px;
 
+  @include tablet {
+    padding: 30px 39px 60px;
+  }
+
   &__pre-title {
     @include text($roboto-regular, 14px, $capitalize, $line-height, #8ccbea);
   }
@@ -9,12 +13,23 @@
     text-align: left;
     word-spacing: 1.8vw;
     @include text($roboto-slab-bold, 24px, $capitalize, $line-height, black);
+
+    @include tablet {
+      font-size: 26px;
+      line-height: 45px;
+      word-spacing: normal;
+    }
   }
 
   &__p {
     text-align: justify;
     padding-top: 15px;
     @include text($roboto-regular, 18px, none, $line-height, #4a4a4a);
+
+    @include tablet {
+      font-size: 20px;
+      word-spacing: normal;
+    }
   }
 
   &__btn {
@@ -31,6 +46,10 @@
     &:hover {
       background-color: $orange;
       color: white;
+    }
+
+    @include tablet {
+      padding: 8px 27px;
     }
   }
 }
