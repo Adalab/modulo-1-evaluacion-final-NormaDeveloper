@@ -62,9 +62,7 @@
 
     @include tablet {
       grid-area: arrow;
-      transform: translate($arrowWidthTablet, 50%);
+      transform: translate($arrowWidthTablet, 62%);
     }
-
-    // transform: translate(40vw, 84px);
   }
 }
