@@ -45,9 +45,8 @@
     width: 184px;
     height: 50px;
     line-height: 10px;
-    text-align: center;
-    transform: translateX($btnWidth);
-
+    align-self: center;
+    justify-self: center;
     &:hover {
       background-color: white;
       color: $orange;
@@ -55,12 +54,16 @@
 
     @include tablet {
       width: 210px;
-      transform: translateX($btnWidthTablet);
+      grid-area: btn;
+      align-self: center;
+      justify-self: center;
     }
 
     @include desktop {
       width: 255px;
-      transform: translateX($btnWidthDesktop);
+      grid-area: btn;
+      align-self: center;
+      justify-self: center;
     }
   }
 
@@ -71,19 +74,14 @@
     border-radius: 50%;
     line-height: 50px;
     padding: 10px;
-    display: block;
-    text-align: center;
-    transform: translate(10.3em, 50%);
+    align-self: center;
+    justify-self: center;
+    transform: translateY(50%);
     animation: arrow 2s linear;
     animation-iteration-count: infinite;
 
     @include tablet {
       grid-area: arrow;
-      transform: translate($arrowWidthTablet, 62%);
-    }
-
-    @include desktop {
-      transform: translate($arrowWidthDesktop, 62%);
     }
   }
 
