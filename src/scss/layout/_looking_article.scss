@@ -4,6 +4,8 @@
 
   @include tablet {
     padding: 30px 39px 60px;
+    display: flex;
+    flex-direction: column;
   }
 
   @include desktop {
@@ -12,6 +14,10 @@
 
   &__pre-title {
     @include text($roboto-regular, 14px, $capitalize, $line-height, #8ccbea);
+
+    @include tablet {
+      order: 1;
+    }
 
     @include desktop {
       font-size: 16px;
@@ -26,6 +32,7 @@
       font-size: 26px;
       line-height: 45px;
       word-spacing: normal;
+      order: 0;
     }
 
     @include desktop {
@@ -41,19 +48,20 @@
     @include tablet {
       font-size: 20px;
       word-spacing: normal;
+      order: 3;
     }
   }
 
   &__btn {
-    margin-top: 28px;
+    margin-top: 78px;
     padding: 12px 27px;
     border-radius: 100px;
     border: 3px solid;
     border-color: $orange;
-    background-color: white;
+    background-color: $orange;
     font-weight: bold;
     transition: all ease-in-out 1s;
-    @include text($roboto-regular, 20px, none, $line-height, $orange);
+    @include text($roboto-regular, 20px, none, $line-height, white);
 
     &:hover {
       background-color: $orange;
@@ -61,8 +69,10 @@
     }
 
     @include tablet {
+      margin-top: 28px;
       padding: 8px 27px;
       width: 91px;
+      order: 4;
     }
 
     @include desktop {

@@ -56,10 +56,12 @@
     line-height: 50px;
     text-align: center;
     transform: translateY(12em);
+    display: none;
 
     @include tablet {
       font-size: 24px;
       transform: translateY(13em);
+      display: block;
     }
 
     @include desktop {
