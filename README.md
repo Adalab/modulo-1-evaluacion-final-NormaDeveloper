@@ -2,6 +2,11 @@
 
 ## **Module 1: Final assessment exercise**
 
+## Project made with: 
+### 1. Attention to detail 🔎
+### 2. Clean and tidy code 🧹
+### 3. Fun 🎉 <br> <br> 
+
 
 ## Assignment
 The exercise requires the development of a web page according to a given design. Several points have to be solved:
@@ -36,5 +41,9 @@ First of all you have to make the layout on a given design: <br>
  .Button hover ("Go" and "3 Reasons To Purchase") should include a transition of your choice (e.g. color, size, etc.).
 
 
+## About me
+
+ [![](https://i.imgur.com/RxMHei3.png)](https://www.linkedin.com/in/normarivas)         [![](https://i.imgur.com/C85yS6z.png)](https://twitter.com/NormaRivas_)  
+ 
 
 
