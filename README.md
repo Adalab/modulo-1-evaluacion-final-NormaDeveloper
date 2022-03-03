@@ -9,7 +9,7 @@
 
 
 ## Assignment
-The exercise requires the development of a web page according to a given design. Several points have to be solved:
+The exercise requires the development of a web page according to a given design (Zeplin). Several points have to be solved:
 
 #### Technological tools:
 Sass <br>
@@ -18,7 +18,8 @@ Flexbox <br>
 CSS Grid <br>
 Media queries<br>
 Mixins <br>
-Transitions
+Transitions <br>
+Zeplin
 
 ## Layout
 
