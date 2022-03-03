@@ -2,7 +2,7 @@
 
 ## **Module 1: Final assessment exercise**
 
-## Project made with: 
+## Project developed with: 
 ### 1. Attention to detail 🔎
 ### 2. Clean and tidy code 🧹
 ### 3. Fun 🎉 <br> <br> 
