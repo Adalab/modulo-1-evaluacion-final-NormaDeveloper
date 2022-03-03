@@ -1,42 +1,39 @@
-# **Módulo 1: Ejercicio de evaluación final**
+# Responsive website with mobile first layout 
 
-## Recursos
+## **Module 1: Final assessment exercise**
 
-Antes de empezar, tenéis que crear un nuevo repositorio desde GitHub Classroom usando este enlace. Una vez creado, debéis clonarlo en vuestro ordenador y en la carpeta creada debéis empezar a trabajar en el ejercicio. A continuación debéis descargar e incluir en el proyecto el starter kit de Adalab.
-También necesitaréis varias imágenes e iconos que os daremos.
-Y por último aquí tenéis los diseños en zeplin para guiaros en la maquetación. 
 
-## Enunciado
-El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dado. Hay que resolver varios puntos:
+## Assignment
+The exercise requires the development of a web page according to a given design. Several points have to be solved:
 
-#### Herramientas tecnológicas aplicadas:
-Sass
-Flexbox 
-CSS Grid 
-Media queries
-Transiciones
+#### Technological tools:
+Sass <br>
+Flexbox <br>
+CSS Grid <br>
+Media queries<br>
+Transitions
 
-## Maquetación
+## Layout
 
 ![](https://i.imgur.com/I9VETo1.png)
 
 
+First of all you have to make the layout on a given design: <br>
+ . The hamburger button (in the upper left corner) should be fixed at the top of the screen and should not disappear when scrolling. The hamburger icon should be a link.  This hamburger menu does not display any submenus. <br>
+ . First module (Anonymous proxy): it must be laid out with flexbox and must occupy the height of the browser window.<br>
+ . Second module (Looking Through A Window): you can layout it using any CSS properties you want.<br>
+ . Third module (3 Reasons To Purchase): the 3 elements of the listing must be laid out with CSS Grid in all screen sizes.<br>
+ . Fourth module (footer): it must be laid out using flexbox.All texts in the "ARTICLES" column and all texts in the "TWITTER" column must be links.
 
 
-En primer lugar debéis realizar la maquetación sobre un diseño dado:
- . El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no desplega ningún submenú.
- . Primer módulo (Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador.
- . Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.
- . Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid en todos los tamaños de pantalla.
- . Cuarto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la columna "ARTICLES" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.
-Interacción
 
-## Interacciones que resolver:
+## Interactions to resolve:
 
- . El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase".
- . El botón de flecha del footer debe enlazar al inicio de la página.
- . Todos los links del pie deben ir a https://adalab.es.
- . En el hover de los botones ("Go" y "3 Reasons To Purchase") se debe incluir una transición que dejamos a vuestra elección (por ejemplo: color, tamaño, etc.).
- . BONUS: hacer una pequeña animación en el botón del footer.
+ . The hero module arrow button should link to the "3 Reasons To Purchase" section.<br>
+ . The footer arrow button should link to the top of the page.<br>
+ . All footer links should go to https://adalab.es.<br>
+ .Button hover ("Go" and "3 Reasons To Purchase") should include a transition of your choice (e.g. color, size, etc.).
+
+
 
 
