@@ -13,6 +13,7 @@ The exercise requires the development of a web page according to a given design.
 
 #### Technological tools:
 Sass <br>
+BEM naming <br>
 Flexbox <br>
 CSS Grid <br>
 Media queries<br>
