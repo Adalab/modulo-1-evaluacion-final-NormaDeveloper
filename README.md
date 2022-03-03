@@ -11,6 +11,7 @@ Sass <br>
 Flexbox <br>
 CSS Grid <br>
 Media queries<br>
+Mixins <br>
 Transitions
 
 ## Layout
