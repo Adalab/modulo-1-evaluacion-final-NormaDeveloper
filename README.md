@@ -1,4 +1,4 @@
-# Responsive website with mobile first layout 
+# Responsive website made with mobile first layout 
 
 ## **Module 1: Final assessment exercise**
 
